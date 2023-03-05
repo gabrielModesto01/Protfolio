@@ -1,0 +1,203 @@
+* {
+  font-size: 62.5%; /* 1rem = 10px */
+}
+
+html,
+body {
+  height: 100vh;
+  background: #000000;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.wrapper {
+  width: 100.5rem;
+  margin-inline: auto;
+  padding-inline: 2.4rem;
+}
+
+#home {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.conteiner {
+  color: #c0c0c0;
+  width: 100.5rem;
+  height: 45rem;
+  border-radius: 2.5rem;
+  padding-left: 2rem;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: absolute;
+  margin-inline: auto;
+  margin-top: 5rem;
+
+  background-color: #1c1c1c;
+  background-image: url(.wallpaper.png);
+}
+
+.nomeCompleto,
+.nome {
+  font-family: "Roboto Slab";
+  padding-left: 2rem;
+  padding-top: 1.5rem;
+
+  font-size: 1.5rem;
+
+  display: flex;
+  align-items: flex-start;
+}
+
+.sobrenome {
+  font-family: "Roboto Slab";
+  padding-left: auto;
+  padding-top: 1.5rem;
+
+  font-size: 1.5rem;
+
+  font-weight: bolder;
+  display: flex;
+  flex-direction: row;
+}
+
+.menu ul {
+  padding-block: 5rem;
+}
+
+.menu li {
+  margin-right: 2rem;
+  margin-top: 2.5rem;
+
+  list-style-type: none;
+  writing-mode: vertical-lr;
+  direction: rtl;
+}
+
+.menu li:nth-child(1) a {
+  margin-top: 0rem;
+}
+
+.menu li a {
+  text-decoration: none;
+  color: #fff;
+  font-family: "Roboto";
+  font-size: 0.85rem;
+}
+
+.foco {
+  position: absolute;
+  z-index: +2;
+  margin-top: 7rem;
+  margin-left: 13rem;
+  font-size: 20rem;
+}
+
+.foco img {
+  weight: 27rem;
+  height: 27rem;
+}
+
+.intro {
+  left: 42rem;
+  top: 11rem;
+
+  width: 34.75rem;
+  height: 17.75rem;
+  font-size: 2.5rem;
+
+  text-align: left;
+
+  position: absolute;
+  z-index: 3;
+
+  display: flex;
+  flex-direction: row;
+  gap: 4rem;
+}
+
+.intro p:nth-child(1) {
+  font-family: "Roboto Slab";
+  font-size: 2.5rem;
+}
+
+.intro p:nth-child(3) {
+  margin-top: 5rem;
+}
+
+.intro svg:nth-child(1) {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.arrow {
+  weight: 4rem;
+  height: 4rem;
+
+  position: absolute;
+  z-index: 3;
+
+  left: 45rem;
+  top: 8rem;
+}
+
+#bodyPage {
+  color: #fff;
+}
+
+.about {
+  margin-top: 80rem;
+  font-size: 3rem;
+}
+
+.about h1 {
+  font-size: 3rem;
+  font-family: "Roboto";
+}
+
+.about p {
+  font-size: 2rem;
+  padding-inline: 5rem;
+}
+
+#skills {
+  color: #fff;
+}
+
+.skills {
+  margin-top: 20rem;
+  font-size: 2rem;
+  margin-bottom: 50rem;
+}
+
+.skills h1 {
+  font-size: 3rem;
+  font-family: "Roboto";
+}
+
+.conteiner2 {
+  padding: 1rem
+  display: flex;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  gap: 3rem
+}
+
+.conteiner2 img {
+  width: 15rem;
+  height: 15rem;
+}
+
+.footer {
+  width:100%;
+  height:5rem;
+}
